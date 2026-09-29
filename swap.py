@@ -1,10 +1,12 @@
-num1=int(input("Enter the number:"))
-num2=int(input("Enter the number:"))
-print("\nBefore swapping:")
-print("First number=",num1)
-print("second number=",num2)
-num1,num2=num2,num1
+a = 18
+b = 14
 
-print("\nAfter swapping:")
-print("First number=",num1)
-print("second number=",num2)
+print("Before swapping:")
+print("First number =", a)
+print("Second number =", b)
+
+a, b = b, a
+
+print("After swapping:")
+print("First number =", a)
+print("Second number =",b)
